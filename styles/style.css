@@ -1,13 +1,21 @@
+header button {
+  background: #2ab7ca;
+}
+
+header button:hover {
+  background-color: #fe4a49;
+}
+
 body {
   background-color: #eee3e7;
 }
 
-header button {
-  background: #fe4a49;
-}
-
 .contact button {
   background-color: #2ab7ca;
+}
+
+.contact button:hover {
+  background-color: #fe4a49;
 }
 
 .info h1 {
