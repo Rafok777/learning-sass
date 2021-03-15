@@ -18,7 +18,7 @@ body {
   background-color: #fe4a49;
 }
 
-.info h1 {
+.info, body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28,10 +28,24 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: gray;
+}
+
+.info h1, body h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: green;
   color: #f6abb6;
 }
 
-.info p {
+.info p, body p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -41,6 +55,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: yellow;
   color: #f4b6c2;
 }
 /*# sourceMappingURL=style.css.map */

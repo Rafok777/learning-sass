@@ -2,13 +2,15 @@
 @import "./variables";
 @import "./header";
 
-@mixin flexCenter {
+@mixin flexCenter($color) {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: $color;
 }
 
 body {
+    @extend .info;
     background-color: $pinkFive;
     
 }
@@ -23,12 +25,13 @@ body {
 }
 
 .info {
+    @include flexCenter(gray);
     h1 {
-        @include flexCenter();
+        @include flexCenter(green);
         color: $pinkOne;
     }
     p {
-        @include flexCenter();
+        @include flexCenter(yellow);
         color: $pinkTwo;
     }  
 } 
