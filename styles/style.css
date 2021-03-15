@@ -1,4 +1,20 @@
-header {
-  background: lightblue;
+body {
+  background-color: #eee3e7;
+}
+
+header button {
+  background: #fe4a49;
+}
+
+.contact button {
+  background-color: #2ab7ca;
+}
+
+.info h1 {
+  color: #f6abb6;
+}
+
+.info p {
+  color: #f4b6c2;
 }
 /*# sourceMappingURL=style.css.map */
