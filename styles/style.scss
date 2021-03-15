@@ -2,6 +2,11 @@
 @import "./variables";
 @import "./header";
 
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 body {
     background-color: $pinkFive;
@@ -10,6 +15,7 @@ body {
 
 // To add the hover you just have to put the &:hover
 .contact button {
+    
     background-color: $secondaryBtn;
     &:hover {
         background-color: $primaryBtn;
@@ -18,9 +24,11 @@ body {
 
 .info {
     h1 {
+        @include flexCenter();
         color: $pinkOne;
     }
     p {
+        @include flexCenter();
         color: $pinkTwo;
     }  
 } 
